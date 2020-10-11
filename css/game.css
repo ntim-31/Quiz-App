@@ -60,3 +60,21 @@
 	height: 100%;
 	width: 0%;
 }
+
+#loader {
+	border: 1rem solid white;
+	border-radius: 50%;
+	border-top: 1rem solid #56a5eb;
+	width: 10rem;
+	height: 10rem;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
